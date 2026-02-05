@@ -96,7 +96,7 @@ if (x > 0 && y > 0){
     console.log("Origo")
 }
 
-let evszam = 100
+let evszam = 2000
 let szokEv = false;
 
 if (evszam % 400 === 0){
