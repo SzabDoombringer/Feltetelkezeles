@@ -96,4 +96,20 @@ if (x > 0 && y > 0){
     console.log("Origo")
 }
 
+let evszam = 100
+let szokEv = false;
+
+if (evszam % 400 === 0){
+    szokEv = true
+} else if( evszam % 100 === 0 ){
+    szokEv = false
+} else if (evszam % 4 === 0){
+    szokEv = true
+}
+
+if (szokEv) {
+    console.log("Ez az évszám szökőév: " + evszam);
+} else {
+    console.log("Ez az évszám NEM szökőév: " + evszam);
+}
     
