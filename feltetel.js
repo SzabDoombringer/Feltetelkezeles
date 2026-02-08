@@ -112,4 +112,79 @@ if (szokEv) {
 } else {
     console.log("Ez az évszám NEM szökőév: " + evszam);
 }
+
+//3. Feladat:
+
+let xSzam = parseFloat(prompt("Adj meg egy számot!"))
+
+if (xSzam > 0) {
+    console.log("A szám pozitív: " + xSzam)
+} else if (xSzam < 0) {
+    console.log("A szám negatív: " + xSzam)
+} else {
+    console.log("A szám nulla")
+}
+
+//5. Feladat:
+
+let a = parseFloat(prompt("Adj meg egy számot!"))
+let b = parseFloat(prompt("Adj meg egy másik számot!"))
+
+if (a > b) {
+    console.log(a + " > " + b)
+} else if (a < b) {
+    console.log(a + " < " + b)
+} else {
+    console.log(a + " = " + b)
+}
+
+//14. Feladat:
+
+let honap = parseInt(prompt("Adj meg egy hónap sorszámot (1-12)!"))
+
+if (honap == 1) {
+    console.log("Január")
+} else if (honap == 2) {
+    console.log("Február")
+} else if (honap == 3) {
+    console.log("Március")
+} else if (honap == 4) {
+    console.log("Április")
+} else if (honap == 5) {
+    console.log("Május")
+} else if (honap == 6) {
+    console.log("Június")
+} else if (honap == 7) {
+    console.log("Július")
+} else if (honap == 8) {
+    console.log("Augusztus")
+} else if (honap == 9) {
+    console.log("Szeptember")
+} else if (honap == 10) {
+    console.log("Október")
+} else if (honap == 11) {
+    console.log("November")
+} else if (honap == 12) {
+    console.log("December")
+} else {
+    console.log("Érvénytelen hónapszám!")
+}
+
+//15. Feladat:
+
+let pontszam = parseInt(prompt("Add meg a dolgozat pontszámát (1-100)!"))
+
+if (pontszam >= 0 && pontszam <= 40) {
+    console.log("Érdemjegy: elégtelen")
+} else if (pontszam >= 41 && pontszam <= 55) {
+    console.log("Érdemjegy: elégséges")
+} else if (pontszam >= 56 && pontszam <= 70) {
+    console.log("Érdemjegy: közepes")
+} else if (pontszam >= 71 && pontszam <= 85) {
+    console.log("Érdemjegy: jó")
+} else if (pontszam >= 86 && pontszam <= 100) {
+    console.log("Érdemjegy: jeles")
+} else {
+    console.log("Érvénytelen pontszám!")
+}
     
